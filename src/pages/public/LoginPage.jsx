@@ -14,8 +14,8 @@ export default function LoginPage() {
   const redirectTo = useMemo(() => location.state?.from || '/dashboard', [location.state])
 
   const [form, setForm] = useState({
-    email: 'admin@demo.com',
-    password: 'demo',
+    email: 'masud@gmail.com',
+    password: 'aaaaa1@',
   })
   const [errors, setErrors] = useState({})
   const [busy, setBusy] = useState(false)
